@@ -1,0 +1,33 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "sitename": "Jacob's Engineering",
+            "screenshot": "/images/smu_screenshot.png",
+            "description": "Since October 2018, I have been working as the in house web developer at South Moon Under in Annapolis, MD. As the web developer, I am a member of an Ecom/Marketing team that includes very talented designers, SEO Specialists, and digital strategists who work to make the site what it is. My roles and responsibilities on the team include, but are not limited to the following:",
+            "applink": "https://www.dcita.edu/"
+        },
+        {
+            "id": 2,
+            "sitename": "South Moon Under",
+            "screenshot": "/images/smu_screenshot.png",
+            "description": "From October 2018 through February 2020, I worked as the in house web developer at South Moon Under in Annapolis, MD. As the web developer, I was a member of an Ecomerce/Marketing team that includes very talented designers, SEO Specialists, and digital strategists. My roles and responsibilities on the team include, but are not limited to the following:",
+            "applink": "https://www.dcita.edu/"
+        }
+    ],
+    "about_me": [
+        {
+            "text": "Hey there! My name is Jesse Shaw. I am a Full Stack Developer currently working on a Learning Management System application at Jacob's Engineering. I enjoy coding because I love to create things. I enjoy building things from scratch and seeing them come to life. I am always interested in meeting and learning from fellow developers and creatives who have similar mindsets. I love working with people who are not afraid to challenge each other and make the world a better place."
+        }
+    ],
+    "resume": [
+        {
+            "company": "Jacobs"
+        },
+        {
+            "company": "South Moon Under"
+        },        {
+            "company": "Optimal Solutions Group"
+        }
+    ]
+}
