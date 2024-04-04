@@ -1,0 +1,29 @@
+.landing {
+    text-align: center;
+}
+
+.splashImage {
+    width: 100%;
+}
+
+span.greeting {
+    background-color: #0f1626;
+    color: #D4DCE3;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+section.greeting-section {
+    font-size: 32px;
+    margin-top: 10%;
+    position:  absolute;
+    width: 80%;
+    display: flex;
+}
+
+section.landing {
+    min-height: 200px;
+    background-image: url('../../images/heroimage.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

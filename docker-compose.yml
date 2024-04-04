@@ -1,3 +1,7 @@
+volumes:
+  step:
+
+
 services:
   frontend:
     build:

@@ -1,0 +1,109 @@
+.portfolio {
+    text-align: center;
+} 
+
+.projects, .site-identifier {
+    text-align: left;
+}
+
+.project-logo {
+    width: 150px;
+    margin: 10px 0px;
+    -webkit-transition: width 0.2s, height 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.2s, height 0.4s;
+}
+
+section.portfolio-section {
+    padding: 20px;
+}
+
+section.portfolio-section > h1 {
+    font-size: 32px;
+    margin: 0px 0px 20px 0px;
+}
+
+#portfolio > section.portfolio > section > h2 {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*South Moon Under*/
+.job-details > ul > li {
+    margin: 2px;
+    list-style: initial;
+    text-align: left;
+    display: list-item;
+}
+
+.stegato, .south-moon-under, .yoga-by-deborah {
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 6px solid #000000;
+}
+
+#portfolio > section.portfolio.stegato > section > section:nth-child(6) > span.linkout > a {
+    color: #000000;
+}
+
+
+.squares {
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 6px solid #000000;
+}
+
+#portfolio > section.portfolio.squares > section > section:nth-child(6) > span.linkout > a {
+    color: #000000;
+}
+
+.mumu {
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 6px solid #000000;
+}
+
+#portfolio > section.portfolio.mumu > section > section:nth-child(6) > span.linkout > a {
+    color: #000000;
+}
+
+
+section.technologies {
+    margin: 20px 0px;
+    font-size: 32px;
+}
+
+img.project-screenshot {
+    width: 100%;
+    -webkit-transition: width 0.2s, height 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.2s, height 0.4s;
+}
+
+.linkout {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+
+.svg-inline--fa {
+    margin: 0px 5px;
+    font-size: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    span.site-identifier {
+        font-size: 20px;
+    }
+    #portfolio > section.portfolio.stegato > section > section:nth-child(6) > span.linkout > a {
+        color: #000000;
+        font-size: 20px;
+    }
+    #portfolio > section.portfolio.squares > section > section:nth-child(6) > span.linkout > a {
+        color: #000000;
+        font-size: 20px;
+    }
+    #portfolio > section.portfolio.mumu > section > section:nth-child(6) > span.linkout > a {
+        color: #000000;
+        font-size: 20px;
+    }
+}

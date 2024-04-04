@@ -1,0 +1,44 @@
+header {
+    background-color: #0f1626;
+    color: #f5f5f5;
+    padding: 2px;
+}
+
+section.name {
+    margin-left: 20px;
+}
+
+.name-text {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+a.name-text-link {
+    text-decoration: none;
+}
+
+header a {
+    color: #f5f5f5
+}
+
+a.jumper {
+    text-decoration: none;
+    font-family: 'Alegreya', sans-serif;
+}
+
+header a:hover {
+    /*text-decoration: underline;*/
+    color: #ff533d;
+}
+
+@media only screen and (max-width: 600px) {
+    #root > main > header > div > nav > ul {
+        display: initial;
+        font-size: 20px;
+        padding: 0px;
+        text-align: center;
+    }
+    nav {
+        text-align: center;
+    }
+}
