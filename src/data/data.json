@@ -22,12 +22,15 @@
     ],
     "resume": [
         {
-            "company": "Jacobs"
+            "company": "Jacobs",
+            "title": "Senior Web Developer"
         },
         {
-            "company": "South Moon Under"
+            "company": "South Moon Under",
+            "title": "Web Developer"
         },        {
-            "company": "Optimal Solutions Group"
+            "company": "Optimal Solutions Group",
+            "title": "Reasearch Analyst/Project Manager"
         }
     ]
 }
