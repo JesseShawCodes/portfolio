@@ -1,10 +1,6 @@
 import React from 'react';
 import './heading.css'
 
-import { Routes, Route } from "react-router-dom"
-
-import ResumePage from '../resume/resume';
-import Landing from '../landing/landing';
 export default function Heading(props) {
     return (
         <header>
