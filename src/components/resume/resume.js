@@ -7,14 +7,15 @@ export default function Landing(props) {
   console.log(props)
   return (
       <>
-      <div>
-        This is the Resume Page
-      </div>
+      <h1>
+        Resume
+      </h1>
       <div>
         {
           props.content.map((item) => 
             <section>
-              {item.company}
+              <h2>{item.company}</h2>
+              <h3>{item.title}</h3>
             </section>
           )
         }
