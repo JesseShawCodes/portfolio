@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSalesforce, faHtml5, faCss3, faJs, faBitbucket, faWordpress, faPhp, faNodeJs, faNode, faNpm, faReact } from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faSalesforce, faHtml5, faCss3, faJs, faBitbucket, faWordpress, faPhp, faNodeJs, faNode, faNpm, faReact } from '@fortawesome/free-brands-svg-icons';
 
 
 var stegatoTech = 
@@ -27,15 +27,15 @@ export default function Portfolio(props) {
     let thelinks
     if (props.projectname === "stegato") {
         technologies = stegatoTech
-        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank">Demo</a></span></section>
+        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank" rel="noopener noreferrer">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank" rel="noopener noreferrer">Demo</a></span></section>
     }
     else if (props.projectname === "mumu") {
         technologies = mumuTech
-        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank">Demo</a></span></section>
+        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank" rel="noopener noreferrer">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank" rel="noopener noreferrer">Demo</a></span></section>
     }
     else if (props.projectname === "squares") {
         technologies = squaresTech
-        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank">Demo</a></span></section>
+        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank" rel="noopener noreferrer">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank" rel="noopener noreferrer">Demo</a></span></section>
     }
     else if (props.projectname === "south-moon-under") {
         technologies = smuTech
@@ -50,12 +50,12 @@ export default function Portfolio(props) {
                 <li>Implemented and researched Search Engine Optimization (SEO) opportunities for the brand. These opportunities included setting up structured data, tagging updates, and updating template files to serve needs of E-Commerce team to add appropriate keywords on the site within the CMS.</li>
                 <li>Updated and maintained site integrations with Monetate, Bronto, Channel Advisor, Facebook, Google Analytics.</li>
             </ul>
-        thelinks = <span className="linkout demo"><a href={props.applink} target="_blank">Live</a></span>
+        thelinks = <span className="linkout demo"><a href={props.applink} target="_blank" rel="noopener noreferrer">Live</a></span>
 
     }
     else if (props.projectname === "yoga-by-deborah") {
         technologies = yogaDebTech
-        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank">Live</a></span></section>
+        thelinks = <section><span className="linkout github"><a href={props.repolink} target="_blank" rel="noopener noreferrer">Repo</a></span><span className="linkout demo"><a href={props.applink} target="_blank" rel="noopener noreferrer">Live</a></span></section>
     }
     return (
         <section className={`portfolio ${props.projectname}`}>
