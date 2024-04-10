@@ -2,11 +2,7 @@ import React from 'react';
 import './whoiam.css'
 import myPicture from '../../images/IMG_2233.JPG'
 
-// import data from "../../data/data.json"
-
-
-export default function Whoiam(props) {
-    console.log(props.props)
+export default function Whoiam() {
     return (
         <section className="about-me" id="bio">
             <section className="image">

@@ -58,7 +58,8 @@
             "start_date": "January 2017",
             "end_date": "October 2018",
             "bullet_points": [
-                "? Bullet Point 1"
+                "Supervised students in a variety of school-related settings and activities.",
+                "Monitored and evaluated student performance following Anne Arundel County procedures and practices."
             ],
             "image": "/images/AACPS.jpg"
         },           
@@ -68,8 +69,9 @@
             "start_date": "September 2013",
             "end_date": "December 2016",
             "bullet_points": [
-                "? Bullet Point 1",
-                "Test Value"
+                "Provided oversight for the timely submission of deliverables, moderated client meetings, and ensured projects remain within budget. Coordinated meetings with stakeholders.",
+                "Assisted with creation and launch of the NWBC GROW Her Business Site built with WordPress. The site was featured in Fortune Magazine in June 2016. (See Link Below)",
+                "Assisted senior researchers in the design, development, and deployment of surveys using Survey Monkey and the MAX Survey tool. These surveys supported research for Women’s Business Centers, as well as Regional Innovation Cluster (RIC) and ScaleUp Initiative and provided input to project findings."
             ],
             "image": "/images/optimal_square_logo.webp"
         }

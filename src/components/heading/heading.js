@@ -1,5 +1,7 @@
 import React from 'react';
-import './heading.css'
+import './heading.css';
+
+import { NavLink } from 'react-router-dom';
 
 export default function Heading(props) {
     return (
@@ -9,12 +11,9 @@ export default function Heading(props) {
                 <a href="/" className="name-text-link"><h1 className="name-text" >Jesse Shaw</h1></a>
             </section>
             <nav>
-
-            <ul className="links">
-                <li><a className="jumper" href="/resume" rel="noopener noreferrer">Resume</a></li>
-                <li><a className="jumper" href="/projects" rel="noopener noreferrer">Projects</a></li>
-                <li><a className="jumper" target="_blank" href="https://github.com/JesseShawCodes" rel="noopener noreferrer">Github</a></li>
-                <li><a className="jumper" target="_blank" href="https://www.linkedin.com/in/thejesseshaw/" rel="noopener noreferrer">LinkedIn</a></li>
+            <ul className="links nav">
+                <li className='nav-item'><NavLink className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')} to='/resume'>Resume</NavLink></li>
+                <li className='nav-item'><NavLink className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')} to='/projects'>Projects</NavLink></li>
             </ul>
             </nav>                
 

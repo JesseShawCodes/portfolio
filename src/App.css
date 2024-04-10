@@ -28,6 +28,16 @@ main {
   font-size: 24px; /* Set a font size */
   font-weight: 100;
   padding: 10px;
+  border-radius: 12px;
+}
+
+.download_button:hover {
+  background-color: #263761; /* Green background */
+  color: white; /* White text */
+  font-size: 24px; /* Set a font size */
+  font-weight: 100;
+  padding: 10px;
+  border-radius: 12px;
 }
 
 .download_button > .fa-download {
@@ -38,6 +48,10 @@ main {
 .image_container > img {
   max-width: 400px;
   background-color: pink;
+}
+
+main {
+  height: 100%;
 }
 
 

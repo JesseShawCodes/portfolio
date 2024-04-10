@@ -18,7 +18,7 @@ a.name-text-link {
 }
 
 header a {
-    color: #f5f5f5
+    color: #f5f5f5 !important;
 }
 
 a.jumper {
@@ -29,6 +29,15 @@ a.jumper {
 header a:hover {
     /*text-decoration: underline;*/
     color: #ff533d;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.active {
+    color: #ff533d !important;
 }
 
 @media only screen and (max-width: 600px) {
