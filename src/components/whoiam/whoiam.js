@@ -1,5 +1,4 @@
 import React from 'react';
-import './whoiam.css'
 import myPicture from '../../images/IMG_2233.JPG'
 
 export default function Whoiam() {

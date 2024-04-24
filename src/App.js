@@ -4,7 +4,7 @@ import Landing from './components/landing/landing'
 // import Portfolio from './components/portfolio/portfolio'
 // import Whoiam from './components/whoiam/whoiam'
 import Footer from './components/footer/footer'
-import './App.css'
+import './App.scss'
 
 /* Portfolio Items*/
 /*
