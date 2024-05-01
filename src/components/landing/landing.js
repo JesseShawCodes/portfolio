@@ -13,7 +13,7 @@ export default function Landing(props) {
             </section>
 
         </section>
-        <section>
+        <section className='container_portfolio'>
             <Whoiam props={props}/>
         </section>
         </>
