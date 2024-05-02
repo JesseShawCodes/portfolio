@@ -13,7 +13,7 @@ export default function Heading(props) {
                 <a href="/" className="name-text-link"><h1 className="name-text" >Jesse Shaw</h1></a>
             </section>
 
-            <nav className="d-flex justify-content-between">
+            <nav className="d-flex justify-content-between mb-2">
             <ul className="links nav">
                 <li className='nav-item'><NavLink className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')} to='/resume'>Resume</NavLink></li>
                 <li className='nav-item'><NavLink className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link inactive')} to='/projects'>Projects</NavLink></li>

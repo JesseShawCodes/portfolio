@@ -1,9 +1,6 @@
 import React from 'react';
 
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-/*Font Awesome */
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faXTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -11,7 +8,6 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer(props) {
     return (
-        // Footer Component
         <footer className="footer" id="footer">
             <h2 className="say-hi">Say Hi</h2>
             <hr className="light"></hr>

@@ -1,29 +1,8 @@
 import React from 'react';
 import Heading from './components/heading/heading'
 import Landing from './components/landing/landing'
-// import Portfolio from './components/portfolio/portfolio'
-// import Whoiam from './components/whoiam/whoiam'
 import Footer from './components/footer/footer'
 import './App.scss'
-
-/* Portfolio Items*/
-/*
-import squaresLogo from './images/Logo3.jpg'
-import mumuLogo from './images/logo.png'
-import stegatoLogo from './images/stegatto_logo2.png'
-import ybd_logo from './images/ybd_logo.png'
-import smu_logo from './images/smu_logo.png'
-*/
-
-/*Portfolio Screenshots */
-/*
-import smuScreenshot from './images/smu_screenshot.png';
-import squaresScreenshot from './images/squares_screenshot.jpg';
-import stegatoScreenshot from './images/stegato_screenshot.jpg';
-import mumuScreenshot from './images/mumu_screenshot.jpg';
-import yogaByDebScreenshot from './images/yogabydeborah_2.png';
-*/
-/* Portfolio Data */
 
 import data from "./data/data.json"
 
@@ -47,7 +26,7 @@ export default function App(props) {
                 <Routes>
                     <Route path="/" element={<Landing content={data} />} />
                     <Route path="/resume" element={<ResumePage content={data.resume}  />} />
-                    <Route path="/projects" element={<ProjectsPage content={data}  />} />
+                    <Route path="/projects" element={<ProjectsPage content={data.projects}  />} />
                 </Routes>
 
             <Footer />
