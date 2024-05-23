@@ -26,7 +26,7 @@ export default function App(props) {
                 <Routes>
                     <Route path="/" element={<Landing content={data} />} />
                     <Route path="/resume" element={<ResumePage content={data.resume}  />} />
-                    <Route path="/projects" element={<ProjectsPage content={data.projects}  />} />
+                    <Route path="/projects" element={<ProjectsPage content={data.featured_projects}  />} />
                 </Routes>
 
             <Footer />
