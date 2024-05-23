@@ -7,7 +7,6 @@ export default function ProjectsPage(props) {
 
     const [repositories, setRepositories] = useState([])
 
-    const [page, setPage] = useState(1);
     const [isLoading, setIsLoading] = useState(false);
     const [isError, setIsError] = useState(false);
 
@@ -39,16 +38,13 @@ export default function ProjectsPage(props) {
             setIsLoading(false);
           }
         })();
-    }, [page]);
+    }, []);
 
+    var masonryBreakPoints = {350: 1, 750: 2, 900: 3, 1200: 3}
 
-    if (isError) {
-        var masonryBreakPoints = {}
-        console.log(isError.message.message)
-    } else {
-        var masonryBreakPoints = {350: 1, 750: 2, 900: 3, 1200: 3}
-    }
-
+    if (isError || isLoading) {
+        masonryBreakPoints = {}
+    } 
     return (
         <>
         <div className="container">
@@ -90,7 +86,12 @@ export default function ProjectsPage(props) {
                             item.topics.length ? 
                             <div>
                                 <p>Technologies Used: </p>
-                                <ul>{item.topics.map((topic) => <li>{topic}</li>)}</ul></div> : null
+                                <ul>
+                                    {
+                                        item.topics.map((topic) => 
+                                            <li key={topic}>{topic}</li>
+                                        )}
+                                </ul></div> : null
                         }
                     </section>
                 )
