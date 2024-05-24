@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Octokit } from "@octokit/core";
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 export default function ProjectsPage(props) {
 
@@ -39,12 +38,11 @@ export default function ProjectsPage(props) {
           }
         })();
     }, []);
-
-    var masonryBreakPoints = {350: 1, 750: 2, 900: 3, 1200: 3}
-
-    if (isError || isLoading) {
-        masonryBreakPoints = {}
-    } 
+    
+    
+    if (isLoading) {
+        return "<div>Loading...</div>"
+    }
     return (
         <>
         <div className="container">
@@ -61,8 +59,7 @@ export default function ProjectsPage(props) {
         <h2>GitHub Repos</h2>
         <div style={{maxWidth: '1200px', margin: '0px auto'}}>
             {
-                <ResponsiveMasonry columnsCountBreakPoints={masonryBreakPoints}>
-                    <Masonry>
+                <div>
                     {
                 isError ? 
                 <div>
@@ -96,8 +93,7 @@ export default function ProjectsPage(props) {
                     </section>
                 )
             }
-                    </Masonry>
-                </ResponsiveMasonry>
+                </div>
             }
         </div>
         </div>
