@@ -4,10 +4,6 @@ header {
     padding: 2px;
 }
 
-section.name {
-    margin-left: 20px;
-}
-
 .name-text {
     text-transform: uppercase;
     font-family: 'Alegreya Sans', sans-serif;
@@ -17,9 +13,8 @@ a.name-text-link {
     text-decoration: none;
 }
 
-header a {
-    color: #f5f5f5 !important;
-}
+
+
 
 a.jumper {
     text-decoration: none;
@@ -36,9 +31,8 @@ header a:hover {
     justify-content: flex-start;
 }
 
-.active {
-    color: #ff533d !important;
-}
+
+
 
 @media only screen and (max-width: 600px) {
     #root > main > header > div > nav > ul {

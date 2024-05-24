@@ -3,7 +3,7 @@
         {
             "id": 1,
             "sitename": "Jacob's Engineering",
-            "screenshot": "/images/smu_screenshot.png",
+            "screenshot": "./images/smu_screenshot.png",
             "description": "Since October 2018, I have been working as the in house web developer at South Moon Under in Annapolis, MD. As the web developer, I am a member of an Ecom/Marketing team that includes very talented designers, SEO Specialists, and digital strategists who work to make the site what it is. My roles and responsibilities on the team include, but are not limited to the following:",
             "applink": "https://www.dcita.edu/"
         },
@@ -75,5 +75,8 @@
             ],
             "image": "/images/optimal_square_logo.webp"
         }
+    ],
+    "featured_projects": [
+        772715217
     ]
 }

@@ -20,7 +20,7 @@ export default function Landing(props) {
       <div style={{maxWidth: '700px', margin: '0px auto'}}>
         {
           props.content.map((item) => 
-            <section className="card my-2 p-3">
+            <section className="card my-2 p-3" key={item.company}>
               <h2>{item.company}</h2>
 
 

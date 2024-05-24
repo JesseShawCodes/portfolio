@@ -1,8 +1,5 @@
 import React from 'react';
 import './portfolio.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faSalesforce, faHtml5, faCss3, faJs, faBitbucket, faWordpress, faPhp, faNodeJs, faNode, faNpm, faReact } from '@fortawesome/free-brands-svg-icons';
-
 
 var stegatoTech = 
 <section className="techfonts">
