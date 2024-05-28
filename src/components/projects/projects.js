@@ -41,7 +41,7 @@ export default function ProjectsPage(props) {
     
     
     if (isLoading) {
-        return "<div>Loading...</div>"
+        return "Loading..."
     }
     return (
         <>
