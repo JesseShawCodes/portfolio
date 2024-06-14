@@ -12,9 +12,6 @@ export const DarkModeToggle = () => {
         setIsDark(nextChecked)
     };
 
-    const handleClick = nextChecked => {
-      setIsDark(nextChecked)
-    }
   return (
     <div className="theme_switch">
   <div className="theme-toggle">
