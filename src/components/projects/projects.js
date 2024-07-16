@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Octokit } from "@octokit/core";
+import Project from "./project";
 
 export default function ProjectsPage(props) {
 
@@ -26,7 +27,6 @@ export default function ProjectsPage(props) {
                   'X-GitHub-Api-Version': '2022-11-28'
                 }
         })
-            console.log(data)
             setRepositories(data);
           } catch (error) {
             setIsError({
@@ -59,7 +59,7 @@ export default function ProjectsPage(props) {
         <h2>GitHub Repos</h2>
         <div style={{maxWidth: '1200px', margin: '0px auto'}}>
             {
-                <div>
+                <div className="repos_grid">
                     {
                 isError ? 
                 <div>
@@ -69,28 +69,7 @@ export default function ProjectsPage(props) {
                 </div> : 
                 repositories.map((item) => 
                    
-                    <section className="card my-2 mx-3 p-3"  key={item.id}>
-                        <h3>{item.name}</h3>
-                        <NavLink target="_blank" to={item.html_url}>Repo</NavLink>
-                        <p>Updated At: {item.updated_at}</p>
-                        {
-                            item.language ? <p>Language: {item.language}</p> : null
-                        }
-                        {
-                            item.description ? <p>{item.description}</p> : null
-                        }
-                        {
-                            item.topics.length ? 
-                            <div>
-                                <p>Technologies Used: </p>
-                                <ul>
-                                    {
-                                        item.topics.map((topic) => 
-                                            <li key={topic}>{topic}</li>
-                                        )}
-                                </ul></div> : null
-                        }
-                    </section>
+                    <Project repo={item} />
                 )
             }
                 </div>
