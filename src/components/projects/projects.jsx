@@ -1,9 +1,11 @@
+/* eslint-disable import/no-unresolved */
+
 import {
   React,
   useState,
   useEffect,
 } from 'react';
-import { Octokit } from '@octokit/rest';
+import { Octokit } from 'octokit';
 
 import Repo from './repo';
 
