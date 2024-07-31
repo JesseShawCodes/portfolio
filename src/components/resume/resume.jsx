@@ -24,9 +24,6 @@ export default function Resume(resume) {
         </button>
       </a>
       <div style={{ maxWidth: '700px', margin: '0px auto' }}>
-        <h2>
-          Need Props
-        </h2>
         {
           resumeContent.map((item) => (
             <section className="card my-2 p-3" key={item.company}>
