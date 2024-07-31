@@ -1,0 +1,17 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "jsx-a11y/label-has-associated-control": [ 2, {
+          "labelAttributes": ["label"],
+          "controlComponents": ["ReactSwitch"],
+          "depth": 1
+        }]
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".jsx"]
+        }
+      }
+    }
+}

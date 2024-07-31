@@ -15,6 +15,18 @@
             "applink": "https://www.dcita.edu/"
         }
     ],
+    "projects_page": [
+      
+      {
+        "paragraph": "My time is currently being taken up by my Full Time job at Jacobs. But I do wanna make sure I am putting in extra time to keep up n new tools and work on some of my own projects to stay sharp."
+      },
+      {
+        "paragraph": "One passion project I am working on right now is a music rating application built using React and Flask. The Git Repository for that project can be found"
+      },
+      {
+        "paragraph": "If you would like to keep up with all of the other work I am doing outside of my work at Jacob's, please check out my"
+      }
+    ],
     "about_me": [
         {
             "text": "Hey there! My name is Jesse Shaw. I am a Full Stack Developer currently working on a Learning Management System application at Jacob's Engineering. I enjoy coding because I love to create things. I enjoy building things from scratch and seeing them come to life. I am always interested in meeting and learning from fellow developers and creatives who have similar mindsets. I love working with people who are not afraid to challenge each other and make the world a better place."
