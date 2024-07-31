@@ -31,7 +31,6 @@ export default function ProjectsPage(aboutContent) {
             'X-GitHub-Api-Version': '2022-11-28',
           },
         });
-        // console.log(data);
         setRepositories(data);
       } catch (error) {
         setIsError({
