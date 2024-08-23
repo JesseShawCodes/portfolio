@@ -38,12 +38,13 @@
             "title": "Senior Web Developer",
             "start_date": "February 2020",
             "bullet_points": [
-                "Worked on project UX/UI team to develop, test, and troubleshoot new features for a Learning Management System application built on a Ruby on Rails (Rails) framework. Assisted in the development of features within all elements of application built on a Model, View, and Controller framework. Experience from Rails 6 up to 7.1.3.",
-                "Worked on a team of four in early-stage development of a Virtual Training Environment (VTE) application. This app was built on Rails 7 and utilizes a PostgreSQL database. Features of this application apply gems such as turbo, simpleform, and fontawesome. Docker is used for development and containerization of various components of the application.",
+                "Worked on project UX/UI team to develop, test, and troubleshoot new features for a Learning Management System application built on a Ruby on Rails (Rails) framework. Assisted in the development of features within all components of application (Model, View, and Controller). Experience from Rails 6 up to 7.1.3.",
+                "Worked on a team of four in early-stage development of a Virtual Training Environment (VTE) application. This app was built on Rails 7 and utilizes a PostgreSQL database. Features of this application apply gems and features such as turbo, stimulus JS, and fontawesome. Docker is used for development and containerization of various components of the application.",
                 "Improved and maintained legacy code and assets; troubleshoot bugs within a code base for an application built with Rails 6.",
                 "Integrated a Drupal Content Management System into a Rails 6 application.",
                 "Experience writing Data Migration code for Rails application.",
-                "Experience writing tests using tools such as Rspec."
+                "Developer on project implementing a React project with a Flask backend.",
+                "Experience writing tests using tools such as Rspec and pytest."
             ],
             "image": "/images/jacobs.svg"
         },
