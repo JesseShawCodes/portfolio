@@ -8,7 +8,7 @@ export default function Landing() {
     <>
       <section className="landing">
         <section className="greeting-section">
-          <span className="greeting">My name is Jesse. I am a Web Developer</span>
+          <span className="greeting">My name is Jesse. I am a Full Stack Developer</span>
         </section>
 
       </section>
