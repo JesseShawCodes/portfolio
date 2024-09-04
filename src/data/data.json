@@ -38,13 +38,17 @@
             "title": "Senior Web Developer",
             "start_date": "February 2020",
             "bullet_points": [
-                "Worked on project UX/UI team to develop, test, and troubleshoot new features for a Learning Management System application built on a Ruby on Rails (Rails) framework. Assisted in the development of features within all components of application (Model, View, and Controller). Experience from Rails 6 up to 7.1.3.",
-                "Worked on a team of four in early-stage development of a Virtual Training Environment (VTE) application. This app was built on Rails 7 and utilizes a PostgreSQL database. Features of this application apply gems and features such as turbo, stimulus JS, and fontawesome. Docker is used for development and containerization of various components of the application.",
-                "Improved and maintained legacy code and assets; troubleshoot bugs within a code base for an application built with Rails 6.",
-                "Integrated a Drupal Content Management System into a Rails 6 application.",
-                "Experience writing Data Migration code for Rails application.",
-                "Developer on project implementing a React project with a Flask backend.",
-                "Experience writing tests using tools such as Rspec and pytest."
+              "Collaborates with UX/UI team to create web-based applications for the U.S. Department of Defense, United States Air Force.",
+              "Develops, tests, and troubleshoots new features for a Learning Management System (LMS) application built on a Ruby on Rails (Rails) framework.",
+              "Developed features within all elements of the LMS application built on a Model, View, and Controller framework.",
+              "Developed a Virtual Training Environment application on Rails 7 that uses a PostgreSQL database and turbo and stimulus gems.",
+              "Built, managed, and maintained front end and back-end (full-stack) site features using coding best practices.",
+              "Improved and maintained legacy code and assets and troubleshoot bugs within a code base for an application built with Rails 6.",
+              "Integrated a Drupal Content Management System into a Rails 6 application.",
+              "Writes Data Migration code for Rails application.",
+              "Writes integrations tests using Rspec, pytest, and Rails built in testing to ensure functionality prior to deployment.",
+              "Attends and collaborates with UX/UI team members during daily standup meetings, Sprint reviews, and Sprint Retrospectives."
+              
             ],
             "image": "/images/jacobs.svg"
         },
@@ -54,14 +58,13 @@
             "start_date": "October 2018",
             "end_date": "January 2020",
             "bullet_points": [
-                "Built, managed, and maintained front end site features and integrations using HTML, CSS, JavaScript, and jQuery coding best practices within the Salesforce Commerce Cloud (SFCC) platform.",
-                "Provided consultation to creative/design team with guidance on UX and Mobile design best practices to implement within site content updates.",
-                "Developed cross-browser, cross-device compatible pages adhering to industry best practices.",
-                "Updates to back-end site features built on the SFCC Pipeline Architecture. These features include product feed jobs that built XML catalog files with demandware script files as well as payment functionality.",
-                "Developed A/B tests using Monetate platform. Built and tested features that have led to a 10 - 15% increase in Conversion Rate and a 15 - 20% increase in revenue generated per session.",
-                "Implemented and researched Search Engine Optimization (SEO) opportunities for the brand. These opportunities included setting up structured data, tagging updates, and updating template files to serve needs of E-Commerce team to add appropriate content on the site within the SFCC Content Management System.",
-                "Updated and managed site integrations with Monetate, Bronto, Channel Advisor, Facebook, Google Analytics."
-
+              "Built, managed, and maintained front end site features and integrations using HTML, CSS, JavaScript, and jQuery coding best practices within Salesforce Demandware Business manager.",
+              "Provided direction and guidance to creative/design team on UX and Mobile design best practices to implement within site content updates.",
+              "Developed cross-browser, cross-device compatible pages adhering to industry best practices.",
+              "Updated the back-end site features built on the Salesforce Commerce Cloud Pipeline Architecture, which included product feed jobs that built XML catalog files with demandware script files as well as payment functionality.",
+              "Developed A/B tests using Monetate platform. Built and tested features that led to a 10 - 15% increase in conversion rate and a 15 - 20% increase in revenue generated per session.",
+              "Implemented Search Engine Optimization opportunities for the brand, which included setting up structured data, tagging updates, and updating template files to serve needs of E-Commerce team to add appropriate content to the site within the Content Management System.",
+              "Updated and managed site integrations with Monetate, Bronto, Channel Advisor, Facebook, Google Analytics."
             ],
             "image": "/images/smu_logo.png"
         },
@@ -71,8 +74,9 @@
             "start_date": "January 2017",
             "end_date": "October 2018",
             "bullet_points": [
-                "Supervised students in a variety of school-related settings and activities.",
-                "Monitored and evaluated student performance following Anne Arundel County procedures and practices."
+              "Taught math according to lesson plan and curriculum requirements.",
+              "Monitored and evaluated student performance following Anne Arundel County procedures and practices.",
+              "Supervised students in a variety of school-related settings and activities."
             ],
             "image": "/images/AACPS.jpg"
         },           
@@ -82,9 +86,13 @@
             "start_date": "September 2013",
             "end_date": "December 2016",
             "bullet_points": [
-                "Provided oversight for the timely submission of deliverables, moderated client meetings, and ensured projects remain within budget. Coordinated meetings with stakeholders.",
-                "Assisted with creation and launch of the NWBC GROW Her Business Site built with WordPress. The site was featured in Fortune Magazine in June 2016. (See Link Below)",
-                "Assisted senior researchers in the design, development, and deployment of surveys using Survey Monkey and the MAX Survey tool. These surveys supported research for Women’s Business Centers, as well as Regional Innovation Cluster (RIC) and ScaleUp Initiative and provided input to project findings."
+              "Managed project activities and budget for a contract with the U.S. Small Business Administration.",
+              "Effectively controlled personnel, materials, and equipment to manage the project budget. Tracked monthly utilization against budget projections to manage burn rates.",
+              "Identified project risks, assessed impact to the schedule and budget, and developed mitigation strategies.",
+              "Managed the development and timely submission of key deliverables (e.g., project management plan, work breakdown structure, etc.).",
+              "Coordinated and facilitated client meetings and working sessions with key stakeholders.",
+              "Created and launched the National Women’s Business Council’s GROW Her Business website built with WordPress.",
+              "Designed, developed, and deployed surveys using Survey Monkey and the MAX Survey tool. These surveys supported research for Women’s Business Centers, the Regional Innovation Cluster (RIC), and the ScaleUp Initiative and provided input to project findings."
             ],
             "image": "/images/optimal_square_logo.webp"
         }
