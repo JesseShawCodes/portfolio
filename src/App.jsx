@@ -16,7 +16,6 @@ import ProjectsPage from './components/projects/projects';
 library.add(fassFaCoffee);
 
 export default function App() {
-  // console.log(data);
   return (
     <BrowserRouter>
       <main>
@@ -26,7 +25,6 @@ export default function App() {
           <Route path="/resume" element={<ResumePage resumeContent={data.resume} />} />
           <Route path="/projects" element={<ProjectsPage about={data.projects_page} />} />
         </Routes>
-
         <Footer />
       </main>
     </BrowserRouter>
