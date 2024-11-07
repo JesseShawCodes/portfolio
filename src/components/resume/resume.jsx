@@ -37,7 +37,7 @@ export default function Resume(resume) {
 
               <div>
                 <ul>
-                  {item.bullet_points.map((val) => <li>{val}</li>)}
+                  {item.bullet_points.map((val) => <li key={crypto.randomUUID()}>{val}</li>)}
                 </ul>
               </div>
             </section>
