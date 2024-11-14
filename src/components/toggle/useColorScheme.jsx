@@ -1,8 +1,8 @@
+// https://medium.com/swlh/persisting-state-on-react-apps-726c310f35ed
+// https://designcode.io/react-hooks-handbook-uselocalstorage-hook
 import { useEffect, useMemo } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import createPersistedState from 'use-persisted-state';
-
-const useColorSchemeState = createPersistedState('colorScheme');
+import useLocalStorage from '../../hooks/useLocalStorage.js';
 
 export default function useColorScheme() {
   const systemPrefersDark = useMediaQuery(
@@ -12,7 +12,7 @@ export default function useColorScheme() {
     undefined,
   );
 
-  const [isDark, setIsDark] = useColorSchemeState();
+  const [isDark, setIsDark] = useLocalStorage('theme', 'dark');
   const value = useMemo(
     () => (isDark === undefined ? !!systemPrefersDark : isDark),
     [isDark, systemPrefersDark],
