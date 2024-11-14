@@ -26,7 +26,6 @@
     "react-switch": "^7.0.0",
     "react-toggle": "^4.1.3",
     "sass": "^1.74.1",
-    "use-persisted-state": "^0.3.3",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
