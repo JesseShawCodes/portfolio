@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCoffee as fassFaCoffee } from '@fortawesome/free-solid-svg-icons';
@@ -16,18 +16,13 @@ import ProjectsPage from './components/projects/projects';
 library.add(fassFaCoffee);
 
 export default function App() {
-  const [jsonData, setJsonData] = useState([]);
-  useEffect(() => {
-    setJsonData(data);
-  }, []);
-
   return (
     <BrowserRouter>
       <main>
         <Heading />
         <Routes>
-          <Route path="/" element={<Landing content={jsonData.about_me} />} />
-          <Route path="/resume" element={<ResumePage resumeContent={jsonData.resume} />} />
+          <Route path="/" element={<Landing content={data.about_me} />} />
+          <Route path="/resume" element={<ResumePage resumeContent={data.resume} />} />
           <Route path="/projects" element={<ProjectsPage about={data.projects_page} />} />
         </Routes>
         <Footer />
