@@ -53,7 +53,7 @@ export default function ProjectsPage(aboutContent) {
     <div className="container">
       <h1>Projects</h1>
       {
-        about.map((item) => <p>{item.paragraph}</p>)
+        about.map((item) => <p key={crypto.randomUUID()}>{item.paragraph}</p>)
       }
       <h2>GitHub Repos</h2>
       <div style={{ maxWidth: '1200px', margin: '0px auto' }}>
