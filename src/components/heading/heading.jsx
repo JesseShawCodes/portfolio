@@ -18,6 +18,7 @@ export default function Heading() {
           <ul className="links nav">
             <li className="nav-item"><NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/">Home</NavLink></li>
             <li className="nav-item"><NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/resume">Resume</NavLink></li>
+            <li className="nav-item"><NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/projects">Projects</NavLink></li>
           </ul>
           <DarkModeToggle />
         </nav>
