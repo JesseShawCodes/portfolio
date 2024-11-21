@@ -17,7 +17,7 @@ export default function Repo(repository) {
           ? (
             <p>
               Language:
-              {repo.language}
+              <span>{repo.language}</span>
             </p>
           )
           : null
@@ -38,7 +38,7 @@ export default function Repo(repository) {
               <p>Technologies Used:</p>
               <ul>
                 {
-                  repo.topics.map((topic) => <li key={topic}>{topic}</li>)
+                  repo.topics.map((topic) => <li key={crypto.randomUUID()}>{topic}</li>)
                 }
               </ul>
             </div>

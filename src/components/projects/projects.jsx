@@ -68,7 +68,9 @@ export default function ProjectsPage(aboutContent) {
                 </div>
               )
               : (
-                repositories.map((repository) => <Repo repo={repository} />)
+                repositories.map(
+                  (repository) => <Repo repo={repository} key={crypto.randomUUID()} />,
+                )
               )
           }
         </div>
