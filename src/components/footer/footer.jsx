@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="footer" id="footer">
+    <footer className="footer d-flex flex-wrap justify-content-between align-items-center py-3" id="footer">
       <h2 className="say-hi">Say Hi</h2>
       <hr className="light" />
       <section className="footer-nav">

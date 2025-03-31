@@ -13,7 +13,7 @@ export default function DarkModeToggle() {
   };
 
   return (
-    <div className="theme_switch">
+    <div className="theme-switch">
       <div className="theme-toggle">
         <div className="anchor">
           <div className="sky" />
