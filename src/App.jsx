@@ -18,13 +18,15 @@ library.add(fassFaCoffee);
 export default function App() {
   return (
     <BrowserRouter>
-      <main>
+      <main className="container p-0">
         <Heading />
-        <Routes>
-          <Route path="/" element={<Landing content={data.about_me} />} />
-          <Route path="/resume" element={<ResumePage resumeContent={data.resume} />} />
-          <Route path="/projects" element={<ProjectsPage about={data.projects_page} />} />
-        </Routes>
+        <div className="d-flex flex-column h-100">
+          <Routes>
+            <Route path="/" element={<Landing content={data.about_me} />} />
+            <Route path="/resume" element={<ResumePage resumeContent={data.resume} />} />
+            <Route path="/projects" element={<ProjectsPage about={data.projects_page} />} />
+          </Routes>
+        </div>
         <Footer />
       </main>
     </BrowserRouter>

@@ -11,7 +11,7 @@ export default function Landing(aboutMe) {
           <span className="greeting">My name is Jesse. I am a Full Stack Developer</span>
         </section>
       </section>
-      <section className="container_portfolio">
+      <section className="container p-0">
         <Whoiam content={aboutMe} />
       </section>
     </>

@@ -9,11 +9,11 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="footer d-flex flex-wrap justify-content-between align-items-center py-3" id="footer">
-      <h2 className="say-hi">Say Hi</h2>
+    <footer className="footer d-flex flex-wrap flex-column justify-content-between align-items-center py-3 flex-shrink-0" id="footer">
+      <h2 className="text-center text-lg-start">Say Hi</h2>
       <hr className="light" />
       <section className="footer-nav">
-        <ul>
+        <ul className="d-flex flex-wrap">
           <li><a href="mailto:jesseshawcodes@gmail.com" aria-label="email" target="_blank" rel="noopener noreferrer" title="Send me an email at JesseShawCodes@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
           <li><a href="https://github.com/jesseshawcodes" aria-label="GitHub" target="_blank" rel="noopener noreferrer" title="Connect with me on GitHub"><FontAwesomeIcon icon={faGithub} /></a></li>
           <li><a href="https://www.instagram.com/jesseshawcodes/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" title="Follow me on Instagram"><FontAwesomeIcon icon={faInstagram} /></a></li>
