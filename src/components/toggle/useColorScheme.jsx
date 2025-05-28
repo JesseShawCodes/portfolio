@@ -1,5 +1,3 @@
-// https://medium.com/swlh/persisting-state-on-react-apps-726c310f35ed
-// https://designcode.io/react-hooks-handbook-uselocalstorage-hook
 import { useEffect, useMemo } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import useLocalStorage from '../../hooks/useLocalStorage.js';

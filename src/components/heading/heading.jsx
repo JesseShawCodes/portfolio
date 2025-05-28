@@ -1,4 +1,4 @@
-/* eslint-disable no-confusing-arrow */
+/* eslint-disable */
 import React from 'react';
 import 'bootstrap';
 import './heading.css';
@@ -11,24 +11,23 @@ export default function Heading() {
   return (
     <header>
       <div className="container">
-        <nav className="d-flex justify-content-between mb-2 navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
-            <section className="name">
-              <a href="/" className="name-text-link navbar-brand">Jesse Shaw</a>
+            <section className='name'>
+              <a className="navbar-brand" href="/">Jesse Shaw</a>
             </section>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="links nav navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item"><NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/">Home</NavLink></li>
-                <li className="nav-item"><NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/resume">Resume</NavLink></li>
-                <li className="nav-item"><NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/projects">Projects</NavLink></li>
-                <li className="nav-item"><DarkModeToggle /></li>
-              </ul>
-            </div>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
             </button>
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div className="navbar-nav">
+                <NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/">Home</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/resume">Resume</NavLink>
+                <NavLink className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link inactive'} to="/projects">Projects</NavLink>
+                <DarkModeToggle />
+              </div>
+            </div>
           </div>
-
         </nav>
       </div>
     </header>
