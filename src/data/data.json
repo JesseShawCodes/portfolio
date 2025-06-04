@@ -15,18 +15,9 @@
             "applink": "https://www.dcita.edu/"
         }
     ],
-    "projects_page": [
-      
-      {
-        "paragraph": "My time is currently being taken up by my Full Time job at Amentum. But I do wanna make sure I am putting in extra time to keep up n new tools and work on some of my own projects to stay sharp."
-      },
-      {
-        "paragraph": "One passion project I am working on right now is a music rating application built using React, Django, and a MySQL database. The Git Repository for that project can be found below (Music March Madness)."
-      },
-      {
-        "paragraph": "If you would like to keep up with all of the other work I am doing outside of my work at Amentum, please check out my"
-      }
-    ],
+    "projects_page": {
+        "content": "<p>My time is currently being taken up by my Full Time job at Amentum. But I do wanna make sure I am putting in extra time to keep up n new tools and work on some of my own projects to stay sharp.</p><p>One passion project I am working on right now is a music rating application built using React, Django, and a MySQL database. The application is named Dadgad. The Git Repository for that project can be found below.</p><ul><li>Repo: <a href='http://github.com/JesseShawCodes/Music_March_Maddness' target='_blank'>GitHub</a></li><li>Demo: <a href='https://dadgad.netlify.app/' target='_blank'>Dadgad</a></li></ul><p>You can also learn about the work I am contributing to at Amentum by visiting <a href='https://www.dcita.edu/' target='_blank'>dcita.edu</a></p><p>If you would like to keep up with all of the other work I am doing outside of my work at Amentum, please check out my GitHub projects below.</p>"
+    },
     "about_me": [
         {
             "text": "Hey there! My name is Jesse Shaw. I am a Full Stack Developer currently working on a Learning Management System application at Amentum. I enjoy coding because I love to create thing"

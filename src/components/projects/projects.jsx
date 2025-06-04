@@ -48,13 +48,14 @@ export default function ProjectsPage(aboutContent) {
   if (isLoading) {
     return 'Loading...';
   }
+  console.log(about.content);
 
   return (
     <div className="container">
       <h1>Projects</h1>
-      {
-        about.map((item) => <p key={crypto.randomUUID()}>{item.paragraph}</p>)
-      }
+
+      <div dangerouslySetInnerHTML={{ __html: about.content }} />
+
       <h2>GitHub Repos</h2>
       <div style={{ maxWidth: '1200px', margin: '0px auto' }}>
         <div>
